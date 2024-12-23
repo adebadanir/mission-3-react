@@ -2,7 +2,7 @@ import { useState } from "react";
 import { StarRating } from "./star";
 
 const Course = () => {
-  const [isActive, setIsActive] = useState(0);
+  const [isActive] = useState(0);
   const cards = Array.from({ length: 9 }, (_, index) => index + 1);
   return (
     <section className="flex flex-col max-w-[320px] max-h-[1683px] gap-[24px] sm:w-full sm:max-w-[1200px] sm:h-auto sm:max-h-[1525px] sm:gap-[32px]">
