@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 .body-medium {
-  @apply font-dm-sans text-[16px] font-medium leading-[22.4px] tracking-[0.2px] text-left;
+  @apply font-dm-sans text-[16px] leading-[22.4px] tracking-[0.2px];
+}
+.heading-1 {
+  @apply font-poppins text-[48px] font-bold leading-[52.8px];
+}
+
+@media (max-width: 640px) {
+  .heading-1 {
+    @apply text-[24px] leading-[26.4px];
+  }
+  .body-medium {
+    @apply text-[14px] leading-[19.6px];
+  }
 }
