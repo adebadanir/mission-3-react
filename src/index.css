@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body-medium {
+  @apply font-dm-sans text-[16px] font-medium leading-[22.4px] tracking-[0.2px] text-left;
+}
