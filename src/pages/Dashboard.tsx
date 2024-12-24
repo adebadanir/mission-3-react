@@ -1,3 +1,4 @@
+import Banner from "../components/Banner";
 import Course from "../components/Course";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
@@ -11,6 +12,7 @@ const Login = () => {
       <main className="flex flex-col gap-[24px] w-full max-w-[360px] max-h-[2587px] px-[20px] py-[28px] sm:w-[1440px] sm:max-w-full h-auto sm:max-h-[2581px] sm:py-[64px] sm:px-[120px] sm:gap-[64px]">
         <Hero />
         <Course />
+        <Banner />
       </main>
     </div>
   );

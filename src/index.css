@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.body-large {
+  @apply font-dm-sans text-[18px] leading-[25.2px] tracking-[0.2px];
+}
 .body-medium {
   @apply font-dm-sans text-[16px] leading-[22.4px] tracking-[0.2px];
 }
