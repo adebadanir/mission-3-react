@@ -13,7 +13,7 @@ const Banner = () => {
             </h3>
             <p className="body-medium font-normal text-[#F4F5FA]">
               Daftarkan dirimu untuk mendapatkan informasi terbaru dan penawaran
-              spesial dari program-program terbaik &nbsp; hariesok.id
+              spesial dari program-program terbaik&nbsp;hariesok.id
             </p>
           </div>
         </div>
