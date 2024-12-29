@@ -1,5 +1,6 @@
 import Banner from "../components/Banner";
 import Course from "../components/Course";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -14,6 +15,9 @@ const Login = () => {
         <Course />
         <Banner />
       </main>
+      <footer className="flex justify-center w-screen border border-t-[#3A35411F] bg-white">
+        <Footer />
+      </footer>
     </div>
   );
 };
