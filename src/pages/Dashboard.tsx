@@ -10,7 +10,7 @@ const Login = () => {
             <header className="flex w-screen justify-center border border-b-[#3A35411F] bg-white">
                 <Navbar />
             </header>
-            <main className="flex h-auto w-full max-w-[360px] flex-col gap-[24px] px-[20px] py-[28px] sm:w-[1440px] sm:max-w-full sm:gap-[64px] sm:px-[120px] sm:py-[64px]">
+            <main className="flex h-auto w-full max-w-[360px] flex-col items-center gap-[24px] px-[20px] py-[28px] sm:w-[1440px] sm:max-w-full sm:gap-[64px] sm:px-[120px] sm:py-[64px]">
                 <Hero />
                 <Course />
                 <Banner />

@@ -20,13 +20,13 @@ const Banner = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex h-auto max-h-[96px] w-auto max-w-[280px] flex-col items-center gap-[16px] bg-transparent sm:max-h-[58ox] sm:w-full sm:max-w-[525px] sm:flex-row sm:gap-[20px] sm:rounded-[10px] sm:bg-white sm:py-[8px] sm:pl-[32px] sm:pr-[8px]">
+                <div className="flex h-auto max-h-[96px] w-auto max-w-[280px] flex-col items-center gap-[16px] bg-transparent sm:max-h-[58px] sm:w-full sm:max-w-[525px] sm:gap-[20px] sm:rounded-[10px] sm:bg-white sm:py-[8px] sm:pl-[32px] sm:pr-[8px] lg:flex-row">
                     <input
                         type="email"
                         placeholder="Masukan Emailmu"
-                        className="body-medium h-auto max-h-[40px] w-[280px] rounded-[10px] bg-white py-[10px] pl-[12px] pr-[8px] text-center font-normal text-[#333333AD] sm:h-[22px] sm:w-[333px] sm:rounded-none sm:bg-transparent sm:p-0 sm:text-left"
+                        className="body-medium h-auto max-h-[40px] w-[280px] rounded-[10px] bg-white py-[10px] pl-[12px] pr-[8px] text-center font-normal text-[#333333AD] lg:h-[22px] lg:w-[333px] lg:rounded-none lg:bg-transparent lg:p-0 lg:text-left"
                     />
-                    <button className="item-center flex max-h-[40px] w-full max-w-[280px] justify-center rounded-[10px] bg-[#FFBD3A] px-[26px] py-[10px] sm:h-auto sm:max-h-[42px] sm:w-auto sm:max-w-[132px] sm:gap-[8px] sm:p-0 sm:px-[26px] sm:py-[10px]">
+                    <button className="item-center flex max-h-[40px] w-full max-w-[280px] justify-center rounded-[10px] bg-[#FFBD3A] px-[26px] py-[10px] lg:h-auto lg:max-h-[42px] lg:w-auto lg:max-w-[132px] lg:gap-[8px] lg:p-0 lg:px-[26px] lg:py-[10px]">
                         <span className="body-medium font-bold text-white">
                             Subscribe
                         </span>

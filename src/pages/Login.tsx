@@ -7,7 +7,7 @@ const Login = () => {
             <header className="flex w-screen justify-center border border-b-[#3A35411F] bg-white">
                 <Navbar />
             </header>
-            <main className="flex flex-col items-center justify-center gap-[36px] sm:h-full sm:max-h-screen sm:w-[1440px] sm:px-[120px] sm:py-[64px]">
+            <main className="flex h-full max-h-full w-full max-w-[360px] flex-col items-center justify-center gap-[24px] px-[20px] py-[28px] sm:max-h-full sm:w-[1440px] sm:gap-[36px] sm:px-[120px] sm:py-[64px]">
                 <LoginForm />
             </main>
         </div>

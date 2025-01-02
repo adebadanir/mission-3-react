@@ -26,6 +26,9 @@
 .heading-6 {
     @apply font-poppins text-[18px] leading-[21.6px];
 }
+.subtitle {
+    @apply font-poppins text-[16px] leading-[24px] tracking-[0.15px];
+}
 
 @media (max-width: 1200px) {
     .heading-1 {
